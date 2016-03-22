@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title>Personal Site</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body ng-controller="navController">
+    <div class="backgroundImg">
+          <img src="../assets/bckgrnd.jpg"/>
+    </div>
+    <div class="headline">
+      <h2>Hey, I'm Dana.</h2>
+      <h3>I'm a web developer based in Denver.</h3>
+    </div>
+    <div class="col-xs-4 buttons">
+      <button class="btn btn-lg mainBtn" ng-click="aboutNav()">About</button>
+      <button class="btn btn-lg mainBtn" ng-click="projectsNav()">Projects</button>
+    </div>
+
+
+</body>
+</html>
